@@ -21,8 +21,8 @@ div.qbeDiagram div.body {
    -o-box-shadow: 2px 2px 5px #aaa;
    -webkit-box-shadow: 2px 2px 5px #aaa;
    -moz-box-shadow: 2px 2px 5px #aaa;
-    opacity: 0.8; 
-    filter: alpha(opacity=80); 
+    opacity: 0.8;
+    filter: alpha(opacity=80);
 }
 
 div.qbeDiagram div.body:hover {
@@ -30,7 +30,7 @@ div.qbeDiagram div.body:hover {
    -o-box-shadow: 2px 2px 5px #444;
    -webkit-box-shadow: 2px 2px 5px #444;
    -moz-box-shadow: 2px 2px 5px #444;
-    opacity: 0.95; 
+    opacity: 0.95;
     filter: alpha(opacity=95);
 }
 
@@ -69,19 +69,19 @@ option.field,div.qbeDiagram div.field {
 
 option.primary,div.qbeDiagram div.primary {
     font-weight: bold;
-    background: url("/media/django_qbe/img/key.gif") no-repeat center right #eee;
+    background: url("/static/django_qbe/img/key.gif") no-repeat center right #eee;
 }
 
 option.foreign,div.qbeDiagram div.foreign {
     font-style: italic;
-    background: url("/media/django_qbe/img/right_arrow.gif") no-repeat scroll right center #FAFAFA;
+    background: url("/static/django_qbe/img/right_arrow.gif") no-repeat scroll right center #FAFAFA;
     cursor: pointer;
 }
 
 option.many,div.qbeDiagram div.many {
     font-style: italic;
     text-decoration: underline;
-    background: url("/media/django_qbe/img/right_arrow_red.gif") no-repeat scroll right center #FAFAFA;
+    background: url("/static/django_qbe/img/right_arrow_red.gif") no-repeat scroll right center #FAFAFA;
     cursor: pointer;
 }
 
@@ -94,7 +94,7 @@ div.qbeDiagram #qbeDiagramContainer {
     overflow: auto;
     position: relative;
     width: 100%;
-    background: url("/media/django_qbe/img/grid.jpg") scroll left top #FAFAFA;
+    background: url("/static/django_qbe/img/grid.jpg") scroll left top #FAFAFA;
     margin-bottom: 0px;
 }
 
@@ -115,7 +115,7 @@ div.qbeDiagram .resizehandle {
 }
 
 
- 
+
 /**
  * Layers
  */
