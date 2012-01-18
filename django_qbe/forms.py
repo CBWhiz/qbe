@@ -177,7 +177,7 @@ class BaseQueryByExampleFormSet(BaseFormSet):
                         _field = self._models[model]._meta.get_field(field)
                         join = u"%s.%s = %s.%s" \
                                % (join_model, join_field, qn(model),
-                                  qn(_field.db_column))
+                                  qn(_field.attname))
                     else:
                         join = u"%s.%s = %s" \
                                % (join_model, join_field,
